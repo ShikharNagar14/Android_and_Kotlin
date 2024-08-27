@@ -1,6 +1,6 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-fun main() {
+// fun main() {
 
     // This is called as string interpolation
     // It allows to insert values direct into the string
@@ -220,18 +220,15 @@ fun main() {
 //
 //    }
 //    println("Day of the week:$dayName")
+// }
 
+fun main(){
     println("Enter the Number");
     val num:Int=Integer.valueOf(readLine());
     when{
-        num%2==0-> println(
-"Even")
-        num%2!=0-> println(
-"Odd")
-        else-> println(
-"Invalid Number")
-
+        num%2==0-> println("Even")
+        num%2!=0-> println("Odd")
+        else-> println("Invalid Number")
     }
-
 
 }
